@@ -1,0 +1,29 @@
+h1{
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: bisque;
+}
+body{
+  background-color: aqua;
+}
+h2{
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(185, 130, 19);
+}
+.subtitle{
+  background-color: rgb(128, 83, 15);
+}
+/* class ki jada importance hai as compare to tags ke so agar class or id use karenge to tag ke liye kuch bhi changes karo to id or class wala hi chalega  */
+h3{
+  font-size: larger;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(19, 150, 86);
+}
+#foot{
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(47, 27, 205);
+  color: rgb(88, 225, 170);
+}

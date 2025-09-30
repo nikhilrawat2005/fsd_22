@@ -1,0 +1,12 @@
+.vwbox{
+  width: 20vw;
+  height: 20vw;
+  background: lightblue;
+}
+
+.vhbox{
+  margin: 10px 0;
+  width: 20px;
+  height: 20vh;
+  background: lightgreen;
+}

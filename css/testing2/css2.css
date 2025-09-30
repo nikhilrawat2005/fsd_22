@@ -1,0 +1,18 @@
+#box {
+    width: 250px;
+    height: 600px;
+    padding: 40px;
+  background-color: #87bfff;
+}
+li {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #ce3434;
+    list-style-type: square;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial, sans-serif;
+    color: #f0f4ef;
+}

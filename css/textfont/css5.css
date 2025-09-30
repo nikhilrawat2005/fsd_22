@@ -1,0 +1,45 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#text{
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(79, 73, 73), 6px 6px 10px rgb(33, 52, 162);
+}
+
+
+.text{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

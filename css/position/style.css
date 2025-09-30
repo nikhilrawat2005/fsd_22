@@ -1,0 +1,60 @@
+body{
+    background-color: lightblue;  
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.container{
+    position: relative;
+    width: 400px;
+    height: 4000px;
+    border: 5px solid black;
+    margin: auto;
+    background-color: white;
+}
+.box1{
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.box2{
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.box3{
+    position: fixed;
+    top: 260px;
+    left: 260px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 30px;
+}
+.space{
+    height: 320vh;
+    
+    margin-top: 20px;
+    text-align: center;
+    line-height: 320vh;
+    font-size: 30px;
+    position: absolute;
+}

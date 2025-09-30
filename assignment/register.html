@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration - Online Book Store</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Book Store Logo" width="80">
+        <h1>Online Book Store</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="login.html">Login</a> |
+            <a href="register.html">Registration</a> |
+            <a href="cse.html">Catalogue</a> |
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <table border="1" width="100%">
+            <tr>
+                <td width="15%">
+                    <nav>
+                        <p><a href="cse.html">CSE</a></p>
+                        <p><a href="ece.html">ECE</a></p>
+                        <p><a href="eee.html">EEE</a></p>
+                        <p><a href="civil.html">CIVIL</a></p>
+                    </nav>
+                </td>
+                <td>
+                    <section>
+                        <h2>Registration Page</h2>
+                        <form>
+                            <p>Full Name: <input type="text" name="name"></p>
+                            <p>Password: <input type="password" name="password"></p>
+                            <p>Email: <input type="email" name="email"></p>
+                            <p>Mobile No: <input type="tel" name="mobile"></p>
+                            <p>Gender: 
+                                <input type="radio" name="gender" value="Male"> Male
+                                <input type="radio" name="gender" value="Female"> Female
+                            </p>
+                            <p>Date of Birth: 
+                                <select name="day">
+                                    <option>1</option><option>2</option><option>3</option>
+                                </select>
+                                <select name="month">
+                                    <option>Jan</option><option>Feb</option><option>Mar</option>
+                                </select>
+                                <select name="year">
+                                    <option>2000</option><option>2001</option><option>2002</option>
+                                </select>
+                            </p>
+                            <p>Known Languages: 
+                                <input type="checkbox" name="lang" value="English"> English
+                                <input type="checkbox" name="lang" value="Telugu"> Telugu
+                                <input type="checkbox" name="lang" value="Hindi"> Hindi
+                                <input type="checkbox" name="lang" value="Tamil"> Tamil
+                            </p>
+                            <p>Address:<br>
+                                <textarea rows="4" cols="30"></textarea>
+                            </p>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </form>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
