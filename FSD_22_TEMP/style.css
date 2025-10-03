@@ -4,6 +4,7 @@ body{
 }
 ul{
     background-color: #d75555;
+    text-align: end;
 }
 li{
     display: inline;
@@ -11,6 +12,6 @@ li{
 a{
     text-decoration: none;
     color: white;
-    padding: 20px;
-    font-size: larger;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
